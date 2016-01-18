@@ -1,6 +1,113 @@
-li {
+*{
+	font-family:arial,sans-serif;
+}
+
+#TopBar ul {
 	list-style:none;
 	margin:0;
 	padding:0;
+	display:block;
+	margin: 0 20 0 0;
+}
+#TopBar li{
+	display:inline;
+	padding: 10px;
+	float:right;
 
+}
+#TopBar li a{
+	color:#000;
+	text-decoration:none;
+
+}
+#TopBar{
+	height:50px;
+}
+
+#Main{
+	margin-top:200;
+}
+#Main ul{
+	
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	list-style-type:none;
+}
+#Main li{
+	
+	display:inline;
+	font-size:7em;
+}
+#G{
+	color:blue;
+	text-decoration:none; !important
+}
+#o{
+	color:red;
+
+}
+#o2{
+	color:yellow;
+}
+#g{
+	color:blue;
+}
+#l{
+	color:green;
+}
+#e{
+	color:red;
+}
+
+#Main input{
+	display:block;
+	margin: 10 auto;
+	width: 40%;
+	height:30px;
+}
+
+#buttons{
+	display:inline-block;
+}
+
+#buttonwrap{
+	width:30%;
+	display:block;
+	margin:30 auto;
+}
+
+
+
+#Search{
+	float:left;
+}
+
+#Glueck{
+	float:right;
+}
+
+.Buttonclass{
+	width:49%;
+	height:35px;
+}
+
+#Bottombar{
+	margin-top:400;
+}
+
+#ul-bottom-left{
+	float:left;
+	margin-left:0;
+}
+
+#ul-bottom-right{
+	float:right;
+}
+#BottomBar ul{
+	list-style-type:none;
+}
+
+#Bottombar li{
+	display:inline;
 }
